@@ -28,5 +28,8 @@ add_dependencies(square ${catkin_EXPORTED_TARGETS})
 add_executable(avoidance src/avoidance.cpp)
 target_link_libraries(avoidance ${catkin_LIBRARIES})
 add_dependencies(avoidance ${catkin_EXPORTED_TARGETS})
+add_executable(myprogramme src/myprogramme.cpp)
+target_link_libraries(myprogramme ${catkin_LIBRARIES})
+add_dependencies(myprogramme ${catkin_EXPORTED_TARGETS})
 
 

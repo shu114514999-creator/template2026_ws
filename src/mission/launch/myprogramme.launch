@@ -1,0 +1,4 @@
+<launch>
+  <rosparam command="load" file="$(find mission)/config/myprogramme.yaml" />
+  <node pkg="mission" type="myprogramme" name="myprogramme" output="screen" />
+</launch>
